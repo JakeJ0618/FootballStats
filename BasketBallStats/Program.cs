@@ -1,3 +1,5 @@
+using FootballStats.Models;
+
 namespace FootballStats
 {
     public class Program
@@ -31,6 +33,19 @@ namespace FootballStats
             app.Run();
 
             
+        }
+        public Program()
+        {
+            var team = new Teams();
+            TeamsRepository.GetAPIResponse();
+
+            foreach(var stats in Teams.TeamStats)
+            {
+                Console.WriteLine($"Team Name: {stats.TeamName}");
+                Console.WriteLine($"Record: Wins: {stats.Wins} Losses: {stats.Losses} Ties: {stats.Ties}");
+                Console.WriteLine($"Passing Offense: Att: {stats.PassingAtt} Cmp: {stats.Cmp} Yds: {stats.PassingYds} Interceptions thrown: {stats.Interceptions}");
+                Console.WriteLine($"Rushing Offense: Att: {stats.RushingAtt} Yds: {stats.RushingYds}");
+            }
         }
     }
 

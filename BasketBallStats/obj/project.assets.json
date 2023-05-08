@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\BasketBallStats\\BasketBallStats\\FootballStats.csproj",
+      "projectUniqueName": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\FootballStats\\BasketBallStats\\FootballStats.csproj",
       "projectName": "FootballStats",
-      "projectPath": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\BasketBallStats\\BasketBallStats\\FootballStats.csproj",
+      "projectPath": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\FootballStats\\BasketBallStats\\FootballStats.csproj",
       "packagesPath": "C:\\Users\\matta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\BasketBallStats\\BasketBallStats\\obj\\",
+      "outputPath": "C:\\Users\\matta\\Desktop\\C# Folder\\repos\\FootballStats\\BasketBallStats\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matta\\AppData\\Roaming\\NuGet\\NuGet.Config",

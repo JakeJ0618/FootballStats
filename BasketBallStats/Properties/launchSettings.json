@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BasketBallStats": {
+    "Football Stats": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

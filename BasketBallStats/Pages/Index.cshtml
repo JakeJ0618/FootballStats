@@ -6,5 +6,138 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Choose a team to display statistics</a>.</p>
 </div>
+
+<html>
+<head>
+	<title>NFL Statistics</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			text-align: left;
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+		tr:hover {
+			background-color: #f5f5f5;
+		}
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			z-index: 1;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		.dropdown-content a:hover {
+			background-color: #ddd;
+		}
+	</style>
+</head>
+<body>
+
+@*	<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>*@
+
+<h1>NFL Statistics</h1>
+
+<!-- AFC East -->
+<div class="dropdown">
+	<button class="dropbtn">AFC East</button>
+	<div class="dropdown-content">
+		<a href="url">Buffalo Bills</a>
+		<a href="url">Miami Dolphins</a>
+		<a href="url">New England Patriots</a>
+		<a href="url">New York Jets</a>
+	</div>
+</div>
+
+<!-- AFC North -->
+<div class="dropdown">
+	<button class="dropbtn">AFC North</button>
+	<div class="dropdown-content">
+		<a href="url">Baltimore Ravens</a>
+		<a href="url">Cincinnati Bengals</a>
+		<a href="url">Cleveland Browns</a>
+		<a href="url">Pittsburgh Steelers</a>
+	</div>
+</div>
+
+<!-- AFC South -->
+<div class="dropdown">
+	<button class="dropbtn">AFC South</button>
+	<div class="dropdown-content">
+		<a href="url">Houston Texans</a>
+		<a href="url">Indianapolis Colts</a>
+		<a href="url">Jacksonville Jaguars</a>
+		<a href="url">Tennessee Titans</a>
+	</div>
+</div>
+
+<!-- AFC West -->
+<div class="dropdown">
+	<button class="dropbtn">AFC West</button>
+	<div class="dropdown-content">
+		<a href="url">Denver Broncos</a>
+		<a href="url">Kansas City Chiefs</a>
+		<a href="url">Las Vegas Raiders</a>
+		<a href="url">Los Angeles Chargers</a>
+	</div>
+</div>
+
+<!-- NFC East -->
+<div class="dropdown">
+	<button class="dropbtn">NFC East</button>
+	<div class="dropdown-content">
+		<a href="url">Dallas Cowboys</a>
+		<a href="url">New York Giants</a>
+		<a href="url">Philadelphia Eagles</a>
+		<a href="url">Washington Football Team</a>
+	</div>
+</div>
+
+<!-- NFC North -->
+<div class="dropdown">
+	<button class="dropbtn">NFC North</button>
+	<div class="dropdown-content">
+		<a href="url">Chicago Bears</a>
+		<a href="url">Detroit Lions</a>
+		<a href="url">Green Bay Packers</a>
+		<a href="url">Minnesota Vikings</a>
+	</div>
+</div>
+
+<!-- NFC South -->
+<div class="dropdown">
+	<button class="dropbtn">NFC South</button>
+	<div class="dropdown-content">
+		<a href="url">Atlanta Falcons</a>
+		<a href="url">Carolina Panthers</a>
+		<a href="url">New Orleans Saints</a>
+		<a href="url">Tampa Bay Buccaneers</a>
+	</div>
+</div>
+</body>
+</html>

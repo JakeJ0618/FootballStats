@@ -7,12 +7,11 @@ namespace FootballStats
     public class TeamsRepository 
     {
         
-        public void GetAPIResponse()
+        public static void GetAPIResponse()
         {
             var client = new RestClient("https://nfl-team-stats1.p.rapidapi.com/teamStats");
             var request = new RestRequest();
             request.AddHeader("content-type", "application/octet-stream");
-            request.AddHeader("X-RapidAPI-Key", "3d1a020afcmshe75fcd18905c920p1f944bjsnb33c785d20f5");
             request.AddHeader("X-RapidAPI-Host", "nfl-team-stats1.p.rapidapi.com");
             var response = client.Execute(request);
 
